@@ -17,6 +17,13 @@
 <body>
 <h1>Rectangles</h1>
 <div id="canvas"></div>
+<!-- external template -->
+<script id="dogTemplate" type="text/template">
+    <%= name %> is <%= color %> and says <%= sound %>
+    <button class="edit">Edit</button>
+    <button class="delete">Delete</button>
+</script>
 </body>
 <script src="rectangle.js"></script>
+<script src="BackboneEx.js"></script>
 </html>
